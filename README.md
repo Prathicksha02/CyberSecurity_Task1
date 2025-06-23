@@ -60,8 +60,8 @@ By scanning for open ports, organizations can monitor and secure their networks 
 |-----------------------|----------------------------------------------|
 | scan_results.txt      | Nmap scan output showing open ports          |
 | packet_details.txt    | Wireshark exported packet dissection details |
-| Screenshots_Task1.pdf | Screenshots showing practical steps          |
-|__ __ __ __ __ __ __ __|__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ _|
+| Screenshots_Task1.pdf | Screenshots showing practical steps of       |
+|__ __ __ __ __ __ __ __|__ the task__ __ __ __ __ __ __ __ __ __ __ __|
 
 ---
 
@@ -71,6 +71,16 @@ By scanning for open ports, organizations can monitor and secure their networks 
 - Identified open ports and potential running services.
 - Verified SYN packets in Wireshark capture.
 - Understood basic exposure risks due to open ports.
+
+---
+
+## Wireshark Packet Analysis:
+
+- In Wireshark, we observed **TCP SYN packets** being sent from our Kali Linux machine to multiple IP addresses in the local network.
+- Devices with **open ports** responded with **SYN-ACK packets**, confirming the port is open.
+- Devices with **closed ports** responded with **RST-ACK packets**, indicating the port is closed.
+- We could clearly see the **source and destination IP addresses**, **protocol used (TCP)**, and the **specific ports scanned** like `53` and `5555`.
+- This visual traffic confirmed that the **Nmap TCP SYN scan was working properly** and how devices react based on their port status.
 
 ---
 
