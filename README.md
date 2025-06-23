@@ -60,7 +60,7 @@ By scanning for open ports, organizations can monitor and secure their networks 
 |-----------------------|----------------------------------------------|
 | scan_results.txt      | Nmap scan output showing open ports          |
 | packet_details.txt    | Wireshark exported packet dissection details |
-| Screenshots_Task1.pdf | Screenshots showing practical steps of       |
+| Screenshots_Task1.pdf | Screenshots showing practical steps          |
 
 
 ---
